@@ -1,0 +1,21 @@
+Executable : /Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp
+-DCMAKE_CXX_FLAGS=-std=c++11
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_TOOLCHAIN_FILE=/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/build/cmake/android.toolchain.cmake
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle
+-DANDROID_PLATFORM=android-26
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_ANDROID_NDK=/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/sever1/workplace/NdkMediaCodec/app/build/intermediates/cmake/release/obj/x86_64
+-DCMAKE_MAKE_PROGRAM=/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=26
+-B/Users/sever1/workplace/NdkMediaCodec/app/.cxx/cmake/release/x86_64
+-GNinja
+jvmArgs : 
+
+Build command args:

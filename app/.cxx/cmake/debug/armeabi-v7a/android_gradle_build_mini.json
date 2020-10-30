@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/CMakeLists.txt",
+    "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja -C \"/Users/sever1/workplace/NdkMediaCodec/app/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/sever1/workplace/NdkMediaCodec/app/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-armeabi-v7a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja -C \"/Users/sever1/workplace/NdkMediaCodec/app/.cxx/cmake/debug/armeabi-v7a\" native-lib",
+      "abi": "armeabi-v7a",
+      "output": "/Users/sever1/workplace/NdkMediaCodec/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# ninja log v5
+0	86	1603790000	CMakeFiles/native-lib.dir/codec/H264Encoder.cpp.o	19d001b1e7957baf
+1	87	1603790000	CMakeFiles/native-lib.dir/codec/G711Encoder.cpp.o	8149a65f6a0fb58e
+0	355	1603790001	CMakeFiles/native-lib.dir/native_bridge.cpp.o	d67bf72f5eab0928
+355	584	1603790001	/Users/sever1/workplace/NdkMediaCodec/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	66d5047c1eec1c53
+3	55	1603853079	CMakeFiles/native-lib.dir/camera/CameraEngine.cpp.o	409a0205f272e95a
+3	92	1603853079	CMakeFiles/native-lib.dir/codec/H264Encoder.cpp.o	a0bcfb9dfc35fb8b
+3	92	1603853079	CMakeFiles/native-lib.dir/codec/G711Encoder.cpp.o	d3a1ea4bd7e8a765
+2	337	1603853079	CMakeFiles/native-lib.dir/native_bridge.cpp.o	9843ddf1d124c729
+337	644	1603853080	/Users/sever1/workplace/NdkMediaCodec/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	53df2fba113cf39e

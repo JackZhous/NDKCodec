@@ -1,0 +1,17 @@
+ninja: Entering directory `/Users/sever1/workplace/NdkMediaCodec/app/.cxx/cmake/debug/x86_64'
+[1/5] Building CXX object CMakeFiles/native-lib.dir/camera/CameraEngine.cpp.o
+[2/5] Building CXX object CMakeFiles/native-lib.dir/codec/H264Encoder.cpp.o
+/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/codec/H264Encoder.cpp:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+[3/5] Building CXX object CMakeFiles/native-lib.dir/codec/G711Encoder.cpp.o
+[4/5] Building CXX object CMakeFiles/native-lib.dir/native_bridge.cpp.o
+/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/native_bridge.cpp:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/native_bridge.cpp:20:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+[5/5] Linking CXX shared library /Users/sever1/workplace/NdkMediaCodec/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so

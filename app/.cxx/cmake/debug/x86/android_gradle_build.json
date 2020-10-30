@@ -1,0 +1,82 @@
+{
+  "stringTable": {
+    "0": "/Users/sever1/workplace/NdkMediaCodec/app/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android26 --gcc-toolchain=/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/include -I/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/codec -I/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/camera -I/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/opengl -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/CMakeLists.txt",
+    "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja -C \"/Users/sever1/workplace/NdkMediaCodec/app/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/sever1/workplace/NdkMediaCodec/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "buildCommand": "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja -C \"/Users/sever1/workplace/NdkMediaCodec/app/.cxx/cmake/debug/x86\" native-lib",
+      "buildType": "debug",
+      "toolchain": "2265860663",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/native_bridge.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/codec/H264Encoder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/codec/G711Encoder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/camera/CameraEngine.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/camera/ManagerCamera.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/include/CameraUtil.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/camera/CameraListener.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/opengl/EGLHelper.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/opengl/CodecInputSurface.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/sever1/workplace/NdkMediaCodec/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "2265860663": {
+      "cppCompilerExecutable": "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

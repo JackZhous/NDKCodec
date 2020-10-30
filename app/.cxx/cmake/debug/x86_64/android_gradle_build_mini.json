@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/sever1/workplace/NdkMediaCodec/app/src/main/cpp/CMakeLists.txt",
+    "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja -C \"/Users/sever1/workplace/NdkMediaCodec/app/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/sever1/workplace/NdkMediaCodec/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86_64": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/sever1/Library/Developer/Xamarin/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja -C \"/Users/sever1/workplace/NdkMediaCodec/app/.cxx/cmake/debug/x86_64\" native-lib",
+      "abi": "x86_64",
+      "output": "/Users/sever1/workplace/NdkMediaCodec/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so"
+    }
+  }
+}
